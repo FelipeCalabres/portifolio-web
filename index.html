@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio pessoal de Felipe Magni Calabres – desenvolvedor em formação, apaixonado por tecnologia e IA." />
+  <title>Felipe Magni Calabres | Portfólio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Folha de estilos principal -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="light-theme">
+
+  <!-- =============================
+       CABEÇALHO / NAVEGAÇÃO
+  ============================== -->
+  <header id="header">
+    <nav class="navbar" aria-label="Navegação principal">
+      <div class="nav-brand">
+        <span class="brand-first">Felipe</span><span class="brand-last">Calabres</span>
+      </div>
+
+      <!-- Botão hambúrguer (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Links de navegação -->
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+        <li><a href="#formacao" class="nav-link">Formação</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+
+      <!-- Botão de alternância de tema -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+        <span class="theme-icon" id="theme-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- =============================
+       HERO / APRESENTAÇÃO
+  ============================== -->
+  <section class="hero" aria-label="Apresentação">
+    <div class="hero-content">
+      <!-- Avatar com inicial -->
+      <div class="avatar" aria-hidden="true">FM</div>
+
+      <p class="hero-greeting">Olá, eu sou</p>
+      <h1 class="hero-name">Felipe Magni<br /><span class="highlight">Calabres</span></h1>
+      <p class="hero-subtitle">Desenvolvedor em formação · Entusiasta de IA</p>
+
+      <a href="#sobre" class="btn btn-primary">Conheça meu trabalho</a>
+    </div>
+
+    <!-- Partículas decorativas -->
+    <div class="hero-particles" aria-hidden="true">
+      <span class="particle p1"></span>
+      <span class="particle p2"></span>
+      <span class="particle p3"></span>
+      <span class="particle p4"></span>
+    </div>
+  </section>
+
+  <!-- =============================
+       SEÇÃO: SOBRE MIM
+  ============================== -->
+  <section id="sobre" class="section section-sobre">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Quem sou eu</span>
+        <h2 class="section-title">Sobre <span class="highlight">mim</span></h2>
+      </div>
+
+      <div class="sobre-grid">
+        <!-- Bloco de informações pessoais -->
+        <div class="sobre-info">
+          <div class="info-card">
+            <span class="info-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </span>
+            <div>
+              <strong>Nome</strong>
+              <p>Felipe Magni Calabres</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+            </span>
+            <div>
+              <strong>Idade</strong>
+              <p>28 anos</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <strong>Cidade</strong>
+              <p>Matão – São Paulo</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/></svg>
+            </span>
+            <div>
+              <strong>Hobbies</strong>
+              <p>Academia, jogos e projetos pessoais</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Texto descritivo -->
+        <div class="sobre-texto">
+          <p>
+            Sou apaixonado por programação e tecnologia, com grande interesse na área de
+            <strong>Inteligência Artificial</strong> e soluções digitais. Atualmente estou cursando
+            <strong>Análise e Desenvolvimento de Sistemas</strong>, buscando evoluir constantemente
+            minhas habilidades técnicas e práticas no desenvolvimento de software.
+          </p>
+          <p>
+            Tenho perfil proativo, gosto de aprender coisas novas e de aplicar a tecnologia para
+            resolver problemas reais. No lado pessoal, sou casado, pai de uma filha e valorizo muito
+            minha família, que é minha maior motivação.
+          </p>
+
+          <!-- Habilidades / tags -->
+          <div class="skills-tags" aria-label="Habilidades">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Análise de Dados</span>
+            <span class="tag">Inteligência Artificial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================
+       SEÇÃO: FORMAÇÃO
+  ============================== -->
+  <section id="formacao" class="section section-formacao">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Minha jornada acadêmica</span>
+        <h2 class="section-title">Formação <span class="highlight">Acadêmica</span></h2>
+      </div>
+
+      <div class="timeline" role="list">
+        <!-- Item 1: ADS -->
+        <div class="timeline-item" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge current">Em andamento</span>
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p class="timeline-institution"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 4px;"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg> Uninter &mdash; 2º Semestre</p>
+            <p class="timeline-desc">
+              Curso superior de tecnologia com foco em desenvolvimento de software, banco de dados,
+              redes e fundamentos de engenharia de sistemas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2: Ensino Médio -->
+        <div class="timeline-item" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <span class="timeline-badge done">Concluído</span>
+            <h3>Ensino Médio Completo</h3>
+            <p class="timeline-institution"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 4px;"><path d="M14 22v-4a2 2 0 1 0-4 0v4"/><path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2"/><path d="M18 5v17"/><path d="m4 6 8-4 8 4"/><path d="M6 5v17"/><circle cx="12" cy="9" r="2"/></svg> Escola Pública</p>
+            <p class="timeline-desc">
+              Formação básica concluída, base para o ingresso no ensino superior e desenvolvimento
+              de competências analíticas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 3: Idiomas -->
+        <div class="timeline-item" role="listitem">
+          <div class="timeline-dot lang" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <h3>Idiomas</h3>
+            <div class="idiomas">
+              <div class="idioma-item">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 4px;"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg> Português</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" aria-label="Proficiência em Português">
+                  <div class="progress-fill" style="--w:100%"></div>
+                </div>
+                <span class="level">Nativo</span>
+              </div>
+              <div class="idioma-item">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 4px;"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg> Inglês</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" aria-label="Proficiência em Inglês">
+                  <div class="progress-fill" style="--w:30%"></div>
+                </div>
+                <span class="level">Básico</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================
+       SEÇÃO: PORTFÓLIO
+  ============================== -->
+  <section id="portfolio" class="section section-portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">O que já desenvolvi</span>
+        <h2 class="section-title">Meu <span class="highlight">Portfólio</span></h2>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <!-- Projeto 1 -->
+        <article class="project-card" tabindex="0">
+          <div class="project-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M3 5h4"/></svg>
+          </div>
+          <div class="project-content">
+            <h3>Landing Page para Salão de Beleza</h3>
+            <p>
+              Desenvolvimento de uma landing page institucional para um salão de beleza, com foco em
+              apresentação dos serviços e atração de clientes. O projeto inclui seções de
+              apresentação do espaço, galeria de fotos dos serviços realizados, localização e uma
+              área de contato para agendamento. Layout simples, moderno e responsivo.
+            </p>
+            <div class="project-tags">
+              <span class="tag-sm">HTML</span>
+              <span class="tag-sm">CSS</span>
+              <span class="tag-sm">JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="project-card" tabindex="0">
+          <div class="project-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="22" y2="22"/><line x1="6" x2="6" y1="18" y2="11"/><line x1="10" x2="10" y1="18" y2="11"/><line x1="14" x2="14" y1="18" y2="11"/><line x1="18" x2="18" y1="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
+          </div>
+          <div class="project-content">
+            <h3>Sistema de Monitoramento – Prefeitura de São Carlos</h3>
+            <p>
+              Sistema voltado para o acompanhamento e controle de serviços públicos realizados na
+              cidade. Permite que o responsável pelo departamento visualize, monitore e gerencie as
+              atividades em andamento, trazendo mais organização e transparência no processo.
+            </p>
+            <div class="project-tags">
+              <span class="tag-sm">JavaScript</span>
+              <span class="tag-sm">Sistema Web</span>
+              <span class="tag-sm">Gestão Pública</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="project-card" tabindex="0">
+          <div class="project-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div class="project-content">
+            <h3>Previsão de Preços de Imóveis (Airbnb)</h3>
+            <p>
+              Projeto de análise de dados com Python, focado na previsão de preços de imóveis com
+              base em dados históricos. Foram aplicadas técnicas de tratamento de dados e modelagem
+              estatística para identificar padrões e gerar estimativas de valores, explorando o uso
+              de dados para apoiar decisões de mercado.
+            </p>
+            <div class="project-tags">
+              <span class="tag-sm">Python</span>
+              <span class="tag-sm">Data Science</span>
+              <span class="tag-sm">Machine Learning</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================
+       SEÇÃO: CONTATO
+  ============================== -->
+  <section id="contato" class="section section-contato">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Vamos conversar</span>
+        <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+      </div>
+
+      <div class="contato-wrapper">
+        <!-- Informações de contato -->
+        <div class="contato-info">
+          <h3>Informações de contato</h3>
+          <div class="contato-item">
+            <span class="contato-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+            </span>
+            <div>
+              <strong>Telefone</strong>
+              <p><a href="tel:+5516994050246">(16) 99405-0246</a></p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <span class="contato-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <strong>Cidade</strong>
+              <p>Matão – São Paulo, Brasil</p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <span class="contato-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </span>
+            <div>
+              <strong>Faculdade</strong>
+              <p>Uninter – ADS 2º Semestre</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulário de contato -->
+        <form id="contato-form" class="contato-form" novalidate aria-label="Formulário de contato">
+          <!-- Campo: Nome -->
+          <div class="form-group">
+            <label for="nome">Nome <span aria-hidden="true">*</span></label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu nome completo"
+              autocomplete="name"
+              aria-required="true"
+              aria-describedby="nome-erro"
+            />
+            <span class="field-error" id="nome-erro" role="alert" aria-live="polite"></span>
+          </div>
+
+          <!-- Campo: E-mail -->
+          <div class="form-group">
+            <label for="email">E-mail <span aria-hidden="true">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              autocomplete="email"
+              aria-required="true"
+              aria-describedby="email-erro"
+            />
+            <span class="field-error" id="email-erro" role="alert" aria-live="polite"></span>
+          </div>
+
+          <!-- Campo: Mensagem -->
+          <div class="form-group">
+            <label for="mensagem">Mensagem <span aria-hidden="true">*</span></label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              placeholder="Sua mensagem..."
+              rows="5"
+              aria-required="true"
+              aria-describedby="mensagem-erro"
+            ></textarea>
+            <span class="field-error" id="mensagem-erro" role="alert" aria-live="polite"></span>
+          </div>
+
+          <!-- Botão de envio -->
+          <button type="submit" class="btn btn-primary btn-full" id="btn-enviar">
+            Enviar Mensagem
+          </button>
+
+          <!-- Feedback de sucesso -->
+          <div class="form-success" id="form-success" role="status" aria-live="polite" aria-atomic="true" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -4px; margin-right: 4px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> Mensagem enviada com sucesso!
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================
+       RODAPÉ
+  ============================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Felipe Magni Calabres. Feito com <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #e53e3e; vertical-align: -3px; margin: 0 2px;"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg> e código puro.</p>
+    </div>
+  </footer>
+
+  <!-- Botão Voltar ao Topo -->
+  <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo da página" title="Voltar ao topo">
+    ↑
+  </button>
+
+  <!-- Script principal -->
+  <script src="js/script.js"></script>
+</body>
+</html>
